@@ -1,0 +1,59 @@
+@import "bourbon";
+@import "font-awesome";
+
+body {
+  background: #e2ebf3;
+}
+
+.container {
+  width: 30%;
+
+
+  .title {
+    background-color: #7FBE2C;
+    color: white;
+    padding: 10px;
+  }
+
+  .contacts {
+    background-color: white;
+    font-size: 14px;
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+
+    li {
+      padding: 10px 5px;
+      border-bottom: 1px solid #EBEBEB;
+      cursor: pointer;
+    }
+  }
+}
+
+.personContainer {
+  width: 30%;
+
+  .personTitle {
+    background-color: #A6D171;
+    padding: 10px;
+    width: 95%;
+    height: 150px;
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+
+    li {
+      padding: 10px 5px;
+      border-bottom: 1px solid #EBEBEB;
+      cursor: pointer;
+    }
+  }
+}
