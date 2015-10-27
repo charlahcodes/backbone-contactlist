@@ -2041,12 +2041,15 @@ body {
       cursor: pointer; }
 
 .personContainer {
-  width: 30%; }
+  width: 30%;
+  overflow: hidden; }
   .personContainer .personTitle {
     background-color: #A6D171;
     padding: 10px;
-    width: 95%;
+    width: 100%;
     height: 150px; }
+    .personContainer .personTitle a {
+      color: black; }
   .personContainer ul {
     margin: 0;
     list-style: none;

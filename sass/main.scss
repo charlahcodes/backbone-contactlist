@@ -36,12 +36,17 @@ body {
 
 .personContainer {
   width: 30%;
+  overflow: hidden;
 
   .personTitle {
     background-color: #A6D171;
     padding: 10px;
-    width: 95%;
+    width: 100%;
     height: 150px;
+
+    a {
+      color: black;
+    }
   }
 
   ul {

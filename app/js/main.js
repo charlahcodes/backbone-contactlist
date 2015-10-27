@@ -182,10 +182,6 @@ var Router = _backbone2['default'].Router.extend({
     }
   },
 
-  showAbout: function showAbout() {
-    console.log('show about page');
-  },
-
   start: function start() {
     _backbone2['default'].history.start();
   }
@@ -203,7 +199,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 function contactTemplate(data) {
 
-  return "\n    <div class=\"personContainer\">\n      <div class=\"personTitle\"><i class=\"fa fa-arrow-left\"></i></div>\n      <ul>\n        <li><i class=\"fa fa-user\"></i>  " + data.name + "</li>\n        <li><i class=\"fa fa-envelope\"></i> " + data.email + "</li>\n        <li><i class=\"fa fa-mobile\"></i> " + data.phone + "</li>\n        <li><i class=\"fa fa-globe\"></i> " + data.location + "</li>\n      </ul>\n    </div>\n  ";
+  return "\n    <div class=\"personContainer\">\n      <div class=\"personTitle\"><a href=\"index.html\"><i class=\"fa fa-arrow-left\"></i><a></div>\n      <ul>\n        <li><i class=\"fa fa-user\"></i>  " + data.name + "</li>\n        <li><i class=\"fa fa-envelope\"></i> " + data.email + "</li>\n        <li><i class=\"fa fa-mobile\"></i> " + data.phone + "</li>\n        <li><i class=\"fa fa-globe\"></i> " + data.location + "</li>\n      </ul>\n    </div>\n  ";
 }
 
 exports["default"] = contactTemplate;

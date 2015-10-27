@@ -62,10 +62,6 @@ let Router = Backbone.Router.extend({
     }
   },
 
-  showAbout: function() {
-    console.log('show about page');
-  },
-
   start: function() {
     Backbone.history.start();
   }
